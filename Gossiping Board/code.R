@@ -13,7 +13,7 @@ AllPageIndexUrls <- paste("https://www.ptt.cc/bbs/Gossiping/index",
                       1:NewestPageIndex,
                       ".html", sep='');
 ## Using 2 page index urls to demo
-PageIndexUrls <- tail(AllPageIndexUrls, 2);
+PageIndexUrls <- tail(AllPageIndexUrls, 10000);
 PageTextUrls <- 
   lapply(
     PageIndexUrls, 
